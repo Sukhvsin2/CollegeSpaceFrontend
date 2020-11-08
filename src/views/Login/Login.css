@@ -1,0 +1,30 @@
+.login{
+    min-height: 50vh;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.loginContainer__content > h2{
+    text-align: center;
+}
+
+.login__form{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.displayContainer{
+    background-color: #dfe6e9;
+}
+
+.displayContainer__image{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
